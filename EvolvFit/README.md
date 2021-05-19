@@ -1,1 +1,1 @@
-EvolvFit Machine Learning Team Challenge
+EvolvFit Machine Learning Challenge
