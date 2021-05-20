@@ -1,2 +1,2 @@
 # EvolvFit Machine Learning Challenge
-# Read EVolvFir_Challenge.pdf 
+Read EVolvFit_Challenge.pdf 
