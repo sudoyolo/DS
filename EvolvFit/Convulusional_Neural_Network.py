@@ -34,12 +34,12 @@ model.add(Dense(1))
 model.add(Activation('sigmoid'))
 
 #Compiling Model
-model.compile(loss="sparse_categorical_crossentropy",
-             optimizer="adam",
+model.compile(optimizer='sgd',
+              loss=tf.keras.losses.SparseCategoricalCrossentropy(),
              metrics=['accuracy'])
 
 #Fitting the data into the model
-model.fit(X, y, batch_size=32, epochs=5, validation_split=0.3)
+model.fit(X, y, batch_size=32, epochs=10, validation_split=0.2)
 
 #Saving the Model
 model.save('CNN.model')
