@@ -22,7 +22,7 @@ model = tf.keras.models.load_model("CNN.model")
 prediction = model.predict([prepare(img_path)])
 
 #Showing Output
-print(CATEGORIES[int(prediction[0][0])])
+print(CATEGORIES[int(prediction[0][0]*15)])
 
  
     
