@@ -18,7 +18,7 @@ training_data = []
 def create_training_data():
     for category in CATEGORIES:
         path = os.path.join(DATADIR, category)
-        class_num = CATEGORIES.index(category)
+        class_num = CATEGORIES.index(category)/15
         for img in os.listdir(path):
             try: 
                 img_array = cv2.imread(os.path.join(path,img), cv2.IMREAD_GRAYSCALE)
