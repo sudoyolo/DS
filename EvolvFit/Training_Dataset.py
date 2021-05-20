@@ -40,6 +40,7 @@ for features, label in training_data:
     y.append(label)
 
 X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1)
+y = np.array(y)
 
 #Saving Built Dataset
 pickle_out = open("X.pickle","wb")
