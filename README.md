@@ -1,1 +1,1 @@
-Python Machine Learning Projects 
+Python Data Science (Machine Learning) Projects 
